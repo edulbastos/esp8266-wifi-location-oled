@@ -203,4 +203,5 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## Author
 
+elbastos(at)gmail.com
 Created for IoT geolocation experiments with ESP8266.

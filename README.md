@@ -2,6 +2,8 @@
 
 ESP8266 project that determines geographic location (latitude and longitude) using WiFi network triangulation with Google Geolocation API, displaying the information on an SSD1306 OLED display.
 
+![Project Demo](IMG_0297.jpeg)
+
 ## Features
 
 - **WiFi Network Scanning**: Detects available WiFi networks and their signal strength (RSSI)

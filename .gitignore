@@ -1,0 +1,55 @@
+# ESP-IDF build output
+build/
+*.bin
+*.elf
+*.map
+
+# sdkconfig files (except defaults)
+sdkconfig
+sdkconfig.old
+.sdkconfig.old
+
+# IMPORTANTE: Não commitar credenciais!
+sdkconfig.defaults
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Dependencies
+dependencies/
+managed_components/
+
+# Logs
+*.log
+
+# Sensitive information - IMPORTANTE!
+# Remova o comentário abaixo se você quiser versionar o sdkconfig.defaults
+# mas certifique-se de remover dados sensíveis antes!
+# sdkconfig.defaults
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# OS generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Flash download tool files
+*.flash_project
+
+# Tools
+tools/

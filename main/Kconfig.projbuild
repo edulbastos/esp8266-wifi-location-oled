@@ -1,0 +1,31 @@
+menu "WiFi Location Configuration"
+
+    config WIFI_SSID
+        string "WiFi SSID"
+        default "YOUR_WIFI_SSID"
+        help
+            SSID (network name) for the ESP to connect to.
+
+    config WIFI_PASSWORD
+        string "WiFi Password"
+        default "YOUR_WIFI_PASSWORD"
+        help
+            WiFi password (WPA or WPA2) for the ESP to use.
+
+    config GOOGLE_API_KEY
+        string "Google Geolocation API Key"
+        default "YOUR_GOOGLE_API_KEY"
+        help
+            API key for Google Geolocation API.
+            Get your key at: https://developers.google.com/maps/documentation/geolocation/get-api-key
+
+    config LOCATION_UPDATE_INTERVAL
+        int "Location Update Interval (seconds)"
+        default 300
+        range 30 3600
+        help
+            Time interval between location updates in seconds.
+            Minimum: 30 seconds
+            Maximum: 3600 seconds (1 hour)
+
+endmenu
